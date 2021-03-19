@@ -51,7 +51,9 @@ window.addEventListener('load',()=>{
     loginForm.addEventListener('submit',(e)=>{
         e.preventDefault();
         if(Validation(rule)){
-            e.target.submit();
+            if(loginUsername.value === 'admin' && loginPassword.value ==='admin'){
+                e.target.submit();
+            }
         }
     })
     
