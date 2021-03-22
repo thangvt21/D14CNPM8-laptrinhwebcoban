@@ -82,11 +82,11 @@
             var gio = date.getHours();
             var phut = date.getMinutes();
             if(gio >= 0 && gio < 12){
-                document.getElementById("greeting").innerHTML = "Good morning, have a great day!";
+                document.getElementById("greeting").innerHTML = "Good morning, have a great day! ~ "  + gio + ":" + phut + " AM";
             } else if(gio >=12 && gio <=18){
-                document.getElementById("greeting").innerHTML = "Good afternoon,";
+                document.getElementById("greeting").innerHTML = "Good afternoon, ~ " + gio + ":" + phut + " AM";
             } else{
-                document.getElementById("greeting").innerHTML = "Good night ~";
+                document.getElementById("greeting").innerHTML = "Good night, nice dream! ~ " + gio + ":" + phut + " PM";
             }
 
     // ----------------------header js-------------------------------------------------------
