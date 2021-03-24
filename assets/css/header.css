@@ -2,7 +2,8 @@
     width: 100%;
     margin-bottom: 8px;
     box-shadow: 0 2px 2px rgb(155, 154, 156);
-    background-color: var(--white-color);
+    /* background-color: var(--white-color); */
+    background-image: url(../img/dropdownBG.jpg);
     z-index: 2;
     position: fixed;
     top: 0;
@@ -95,7 +96,6 @@
     z-index: 1; 
     left: 0;
     top: 0;
-    background-image: url(../img/dropdownBG.jpg);
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0, 0.9);
     overflow: hidden; 
