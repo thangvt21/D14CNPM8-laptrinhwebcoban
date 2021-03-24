@@ -79,18 +79,22 @@
                 x.style.width = "0%";
             }
 
-            var date = new Date();
-            var gio = date.getHours();
-            var phut = date.getMinutes();
-            if(gio >= 0 && gio < 12){
-                document.getElementById("greeting").innerHTML = "Good morning, have a great day! ~ "  + gio + ":" + phut + " AM";
-            } else if(gio >=12 && gio <=18){
-                document.getElementById("greeting").innerHTML = "Good afternoon, ~ " + gio + ":" + phut + " AM";
-            } else{
-                document.getElementById("greeting").innerHTML = "Good night, nice dream! ~ " + gio + ":" + phut + " PM";
+            var clockrun = document.getElementById('greeting');
+            function time() {
+                var d = new Date();
+                var s = d.getSeconds();
+                var m = d.getMinutes();
+                var h = d.getHours();
+                if(h >= 0 && h < 12){
+                    clockrun.textContent = 
+                ("0" + h).substr(-2) + ":" + ("0" + m).substr(-2) + ":" + ("0" + s).substr(-2) + " AM";
+                } else if (h >= 12 && h <= 23){
+                    clockrun.textContent = 
+                ("0" + h).substr(-2) + ":" + ("0" + m).substr(-2) + ":" + ("0" + s).substr(-2) + " PM";
+                }  
             }
-
-    // ----------------------header js-------------------------------------------------------
+            setInterval(time, 1000);
+    // ----------------------header && clock js-------------------------------------------------------
             document.getElementById("register").addEventListener('click',clickdropdown,true);
             function clickdropdown(event){
                 document.getElementById("header-drop").style.height = "250px";
