@@ -3,7 +3,7 @@
     margin-bottom: 8px;
     box-shadow: 0 2px 2px rgb(155, 154, 156);
     /* background-color: var(--white-color); */
-    background-image: url(../img/dropdownBG.jpg);
+    background-image: url(../img/headerBG.jpg);
     z-index: 2;
     position: fixed;
     top: 0;
