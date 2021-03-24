@@ -57,13 +57,15 @@ aside{
     width: 300px;
     display: flex;
     flex-direction: column;
-    border: 1px solid gray;
+    margin-top: 6px;
+    /* border: 1px solid gray; */
+    box-shadow: 0px 3px 3px 3px var(--stick-color);
     border-top: 10px solid black;
     background-color: white;
 }
 .col2-title{
     padding: 16px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid var(--stick-color);
     /* font-size: px; */
     font-weight: 700;
 }
@@ -72,10 +74,49 @@ aside{
 }
 .story{
     padding: 16px 0px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid var(--stick-color);
+    display: flex;
+    flex-direction: row;
 }
 .story-last{
     padding: 16px 0px;
+    display: flex;
+    flex-direction: row;
+}
+.story-last img,
+.story img{
+    height: 75px;
+    width: 75px;
+}
+.story-detail{
+    margin-left: 16px;
+}
+.type-post{
+    font-size: 14px;
+    line-height: 9px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #666;
+}
+.author{
+    font-size: 11px;
+    line-height: 9px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #666;
+    cursor: pointer;
+}
+.author:hover{
+    background-color: rgb(81, 187, 164);
+    color: var(--black-color);
+}
+.story-link{
+    text-decoration: none;
+    color: var(--black-color);
+}
+.story-link:hover{
+    color: #666;
+    text-decoration: underline;
 }
 .col2-link{
     padding: 16px;
@@ -83,13 +124,142 @@ aside{
     text-decoration: none;
     color: var(--black-color);
 }
-.row1{
+.row{
     display: flex;
     flex-direction: row;
 }
 .row1-item1{
     width: 405px;
+    padding: 16px;
+    margin: 6px 16px 16px 0px;
+    box-shadow: 0px 2px 1px 2px var(--stick-color);
+    border-top: 3px solid black;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.row1-item1:hover{
+    margin-top: 0px;
+    margin-bottom: 22px;
+    border: 0px 6px 6px 6px var(--white-color);
+    border-top: 3px solid black;
+    box-shadow: 0px 3px 1px 3px rgb(184, 183, 183);
 }
 .row1-item2{
-    width: 194px;
+    width: 221px;
+    padding: 16px;
+    margin: 6px 16px 16px 0px;
+    box-shadow: 0px 2px 1px 2px var(--stick-color);
+    border-top: 3px solid black;
+    background-color: white;
+    cursor: pointer;
+    transition: 00.3s;
+}
+.row1-item2:hover{
+    margin-top: 0px;
+    margin-bottom: 22px;
+    border: 0px 6px 6px 6px var(--white-color);
+    border-top: 3px solid black;
+    box-shadow: 0px 3px 1px 3px rgb(184, 183, 183);
+}
+.row1-item1 img{
+    height: 209px;
+    width: 373px;
+}
+.row1-item2 img{
+    height: 169px;
+    width: 190px;
+}
+.item-detail{
+    padding: 0px;
+}
+.item-type-post{
+    font-size: 16px;
+    line-height: 9px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    margin-top: 16px;
+    color: #666;
+}
+.item-author{
+    font-size: 13px;
+    line-height: 9px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #666;
+}
+.item-author:hover{
+    background-color: rgb(81, 187, 164);
+    color: var(--black-color);
+}
+.item-link{
+    text-decoration: none;
+    color: var(--black-color);
+}
+.item-link h2{
+    margin-bottom: 8px;
+}
+.item-link:hover{
+    color: #666;
+}
+.row2-col1{
+    width: 313px;
+    padding: 16px;
+    margin: 6px 16px 16px 0px;
+    box-shadow: 0px 2px 1px 2px var(--stick-color);
+    border-top: 3px solid black;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: row;
+}
+.row2-col1:hover{
+    margin-top: 0px;
+    margin-bottom: 22px;
+    border: 0px 6px 6px 6px var(--white-color);
+    border-top: 3px solid black;
+    box-shadow: 0px 3px 1px 3px rgb(184, 183, 183);
+}
+.row2-col1 img,
+.row2-col2 img
+{
+    height: 125px;
+    width: 125px;
+}
+.row2-col2{
+    width: 313px;
+    padding: 16px;
+    margin: 6px 16px 16px 0px;
+    box-shadow: 0px 2px 1px 2px var(--stick-color);
+    border-top: 3px solid black;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: row;
+}
+.row2-col2:hover{
+    margin-top: 0px;
+    margin-bottom: 22px;
+    border: 0px 6px 6px 6px var(--white-color);
+    border-top: 3px solid black;
+    box-shadow: 0px 3px 1px 3px rgb(184, 183, 183);
+}
+.row3{
+    width: 641px;
+    padding: 16px;
+    margin: 6px 16px 16px 0px;
+    box-shadow: 0px 2px 1px 2px var(--stick-color);
+    border-top: 3px solid black;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.row3:hover{
+    margin-top: 0px;
+    margin-bottom: 22px;
+    border: 0px 6px 6px 6px var(--white-color);
+    border-top: 3px solid black;
+    box-shadow: 0px 3px 1px 3px rgb(184, 183, 183);
 }
