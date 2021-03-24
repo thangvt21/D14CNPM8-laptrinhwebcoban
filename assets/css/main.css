@@ -27,6 +27,10 @@
     font-weight: 700;
     text-decoration: underline;
 }
+.trend-content a{
+    color: var(--black-color);
+    text-decoration: none;
+}
 .trend-content a:hover{
     text-decoration: underline;
 }
