@@ -106,6 +106,7 @@ aside{
     margin-bottom: 8px;
     color: #666;
     cursor: pointer;
+    padding: 0px 3px 0px 3px;
 }
 .author:hover{
     background-color: rgb(81, 187, 164);
@@ -188,6 +189,7 @@ aside{
     font-weight: 600;
     margin-bottom: 8px;
     color: #666;
+    padding: 0px 3px 0px 3px;
 }
 .item-author:hover{
     background-color: rgb(81, 187, 164);

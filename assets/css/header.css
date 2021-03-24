@@ -148,4 +148,10 @@
     margin: 0px 150px;
     padding: 16px;
     display: flex;
+    justify-content: center;
+}
+.greeting-drop{
+    color: white;
+    display: flex;
+    justify-content: center;
 }
