@@ -121,8 +121,10 @@ aside{
 .col2-link{
     padding: 16px;
     border-top: 1px solid gray;
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--black-color);
+    display: flex;
+    justify-content: end;
 }
 .row{
     display: flex;
@@ -278,4 +280,15 @@ aside{
 .contact{
     display: flex;
     justify-content: center;
+}
+.col2-link img{
+    height: 50px;
+    width: 50px;
+}
+h5{
+    margin: 12px 0px 8px 12px;
+    font-size: 16px;
+}
+.btn-join{
+    text-decoration: underline;
 }

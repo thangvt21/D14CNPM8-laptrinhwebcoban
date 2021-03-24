@@ -10,7 +10,7 @@
     width: 100%;
     margin-top: 8px;
     box-shadow: 5px 5px 5px 5px rgb(143, 143, 145);
-    background-color: white;
+    background-image: url(../img/footer-BG.jpg);
     height: 130px;
     padding: 16px;
 }
@@ -68,7 +68,7 @@
     position: relative;
     left: -10%;
     margin: 0px 16px;
-    padding: 0px 16px;
+    padding: 0px 16px 0px 30px;
     border-left: 2px solid #dee2e4;
     font-weight: 600;
     color:rgb(155, 148, 148);
@@ -156,4 +156,19 @@
 .nav-bar a{
     text-decoration: none;
     color: var(--black-color);
+}
+.btn-ranking{
+    padding: 8px;
+    margin: 0px 8px;
+}
+.btn-aboutus img, .btn-ranking img{
+    height: 16px;
+    width: 16px;
+}
+.btn-aboutus{
+    padding: 8px;
+    margin: 0px;
+}
+.btn-aboutus:hover, .btn-ranking:hover{
+    border-bottom: 3px solid black;
 }
