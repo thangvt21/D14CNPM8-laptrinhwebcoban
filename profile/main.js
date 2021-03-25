@@ -98,7 +98,7 @@ function render(data) {
         <h1 class="posttitle">${v.title}</h1>
         <p class="postdescription">t${v.description}</p>
         <div class="postimg">
-            <img src="./img/user-avatar-icon-sign-symbol-vector-4001945.jpg" alt="">
+            <img src="../assets/img/user-avatar-icon-sign-symbol-vector-4001945.jpg" alt="">
             <p>
                 <span>source:</span><span class="postimgsrc">google</span>
             </p>
