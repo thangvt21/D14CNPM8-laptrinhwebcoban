@@ -35,5 +35,15 @@
                 document.getElementById("header-drop").style.height = "0px";
             }
     // ----------------------------------dropdown header---------------------------------------
+           
+            function showdrop(){
+                var drop = document.getElementById("dropdown");
+                if(drop.style.visibility === "hidden")
+                {
+                    drop.style.visibility = "visible";
+                } else {
+                    drop.style.visibility = "hidden";
+                }
+            }
   
            
