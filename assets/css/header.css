@@ -22,6 +22,10 @@
     justify-content: center;
     padding: 0px 16px 0px 16px;
 }
+.share-group a{
+    text-decoration: none;
+    margin: 8px;
+}
 .share-group img{
     height: 40px;
     width: 40px;
@@ -177,4 +181,47 @@
 }
 .btn-aboutus:hover, .btn-ranking:hover{
     border-bottom: 3px solid black;
+}
+/* icon */
+.icon{
+    display: block;
+    font-family: icon;
+    font-size: 25px;
+    font-style: normal;
+}
+@font-face{
+    font-family: icon;
+    src: url(../fonts/icomoon.ttf) format("truetype");
+}
+.icon-heart::before{
+    content: '\e9da';
+}
+.icon-comment::before{
+    content:'\e96e'
+}
+.icon-donate::before{
+    content: '\e99f';
+}
+.icon-share::before{
+    content: '\ea82';
+}
+.icon-facebook::before{
+    content:'\ea91';
+    color: rgb(24, 24, 158);
+}
+.icon-youtube::before{
+    content: '\ea9d';
+    color: red;
+}
+.icon-telegram::before{
+    content: '\ea95';
+}
+.icon-drive::before{
+    content: '\ea8f';
+}
+.icon-insta::before{
+    content: '\ea92';
+}
+#count-comment{
+    text-align: center;
 }
