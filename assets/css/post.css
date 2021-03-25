@@ -1,22 +1,95 @@
 .main-post{
     width: 100%;
-    margin-top: 80px;
+    margin: 100px 150px 8px 100px;
     display: flex;
     flex-direction: row;
 }
+
+ /* col1 */
 .reactions{
     width: 100px;
-    margin: 0px 16px;
+    margin: 0;
+    margin-right: 16px;
     font-family: icon;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
-
+.react-heart, .react-donate, .react-comment, .react-share{
+    padding: 10px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+.react-heart:hover{
+    color: red;
+    border-radius: 50%;
+    background-color: rgb(248, 202, 202);
+}
+.react-donate:hover{
+    border-radius: 50%;
+    color: rgb(3, 211, 226);
+    background-color: rgb(198, 236, 240);
+}
+.react-comment:hover{
+    border-radius: 50%;
+    color: rgb(119, 0, 255);
+    background-color: rgb(219, 193, 253);
+}
+.react-share:hover{
+    border-radius: 50%;
+    color:gray;
+    background-color: var(--stick-color);
+}
 /* icon */
 .icon{
-    display: inline-block;
-    font-style: normal;
+    display: block;
     font-family: icon;
+    font-size: 25px;
+    font-style: normal;
 }
 @font-face{
     font-family: icon;
-    src: url('../fonts/icomoon.ttf') format('truetype');
+    src: url(../fonts/icomoon.ttf) format("truetype");
+}
+.icon-heart::before{
+    content: '\e9da';
+}
+.icon-comment::before{
+    content:'\e96e'
+}
+.icon-donate::before{
+    content: '\e99f';
+}
+.icon-share::before{
+    content: '\ea82';
+}
+.icon-facebook::before{
+    content:'\ea91'
+}
+.icon-youtube::before{
+    content: '\1f31e';
+}
+.icon-telegram::before{
+    content: '\ea95';
+}
+.icon-drive::before{
+    content: '\ea8f';
+}
+.icon-insta::before{
+    content: '\ea92';
+}
+#count-comment{
+    text-align: center;
+}
+
+/* col2 */
+.post-content{
+    width: 800px;
+}
+.post-author{
+    width: 300px;
 }
