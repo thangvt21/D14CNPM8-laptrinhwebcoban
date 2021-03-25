@@ -1,6 +1,10 @@
 .main-post{
+    width: 100%;
     margin-top: 80px;
-    padding: 16px;
     display: flex;
     flex-direction: row;
+}
+.reactions{
+    width: 100px;
+    margin: 0px 16px;
 }
