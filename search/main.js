@@ -4,7 +4,7 @@ function renderType(type,ele){
     <div class="marker"></div>
     <div class="resultCardInfo">
         <div class="authorImgWrapper">
-            <img class="authorImg" src="../assets/img/icon1.png" alt="">
+            <img class="authorImg" src="../assets/img/iconfinder_batman_hero_avatar_comics_4043232.png" alt="">
         </div>
         <div class="authorInfoWrapper">
             <div class="authorName">
