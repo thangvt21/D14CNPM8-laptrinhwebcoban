@@ -1,6 +1,6 @@
 .main-post{
-    width: 100%;
-    margin: 100px 150px 8px 100px;
+    width: 1185px;
+    margin: 100px 0px 8px 100px;
     display: flex;
     flex-direction: row;
 }
@@ -8,6 +8,7 @@
  /* col1 */
 .reactions{
     width: 100px;
+    height: 100%;
     margin: 0;
     margin-right: 16px;
     font-family: icon;
@@ -23,6 +24,7 @@
     padding: 10px;
     margin-top: 16px;
     cursor: pointer;
+    transition: 0.5s;
 }
 .react-heart:hover{
     color: red;
@@ -68,10 +70,12 @@
     content: '\ea82';
 }
 .icon-facebook::before{
-    content:'\ea91'
+    content:'\ea91';
+    color: rgb(24, 24, 158);
 }
 .icon-youtube::before{
-    content: '\1f31e';
+    content: '\ea9d';
+    color: red;
 }
 .icon-telegram::before{
     content: '\ea95';
@@ -89,7 +93,36 @@
 /* col2 */
 .post-content{
     width: 800px;
+    padding: 16px;
+    margin: 0px 16px 16px 0px;
+    background-color: var(--white-color);
+    box-shadow: 0px 2px 1px 2px var(--stick-color);
+    border-top: 5px solid var(--black-color) ;
 }
+.post-content img{
+    width: 768px;
+    height: auto;
+}
+/* col3 */
 .post-author{
     width: 300px;
+}
+h4{
+    margin: 8px 0px;
+}
+.post-detail{
+    padding: 16px;
+}
+.post-grouplink{
+    margin-bottom: 8px;
+}
+.post-grouplink a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--black-color);
+}
+.post-grouplink a:hover{
+    text-decoration: underline;
+    color: gray;
 }
