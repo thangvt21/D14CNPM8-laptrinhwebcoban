@@ -7,4 +7,16 @@
 .reactions{
     width: 100px;
     margin: 0px 16px;
+    font-family: icon;
+}
+
+/* icon */
+.icon{
+    display: inline-block;
+    font-style: normal;
+    font-family: icon;
+}
+@font-face{
+    font-family: icon;
+    src: url('../fonts/icomoon.ttf') format('truetype');
 }
