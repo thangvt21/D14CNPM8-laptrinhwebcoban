@@ -1,0 +1,6 @@
+.main-post{
+    margin-top: 80px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+}

@@ -292,3 +292,9 @@ h5{
 .btn-join{
     text-decoration: underline;
 }
+.load-more{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    text-align: center;
+}
