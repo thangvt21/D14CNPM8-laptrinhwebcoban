@@ -109,6 +109,8 @@
 }
 h4{
     margin: 8px 0px;
+    padding-top: 8px;
+    border-top: 1px solid var(--stick-color);
 }
 .post-detail{
     padding: 16px;
