@@ -4,39 +4,62 @@
     height: 4em;
     text-align: center;
     box-shadow: 5px 0 5px black;
+    position: relative;
+    background-image: url(../assets/img/headerBG.jpg);
+    z-index: 10;
 }
 .nav{
     height: 4em;
     width: 1200px;
-    background-color: white;
     display:flex;
     margin:auto;
     justify-content: space-between;
 }
 .navLeft{
     margin:0;
-    background-color:  #fff;
     display: flex;
-    align-items: flex-end;
-    font-size: 1.5em;
-    padding-bottom: 3px;
+    align-items: flex-start;
+    font-weight: 600;
 }
 .navLeft>div{
     
     cursor: pointer;
 }
-.navLeft>div:hover{
-    color:rgba(0, 0, 0,.7);
-}
 .navLeft>div + div{
     margin-left: 50px;
 }
 .navLeftHome{
-    padding: 10px 20px 3px;
     font-size: 2em;
 }
+.greeting{
+    margin-top:20px;
+    color:#9b9494;
+    border-right: solid 2px #DEE2E4;
+    border-left: solid 2px #DEE2E4;
+    padding: 0 20px;
+}
+
+.navLeft .navLeftHome img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top:7px;
+}
+.navLeft img{
+    position: relative;
+    left:3px;
+    width: 16px;
+    height: 16px;
+}
 .navLeftTrending,.navLeftAbout{
-    padding: 10px 20px ;
+    padding-top: 20px;
+}
+.navLeftTrending:hover,.navLeftAbout:hover{
+    border-bottom: solid 3px black;
+}
+.navLeftTrending a ,.navLeftAbout a{
+    text-decoration:none ;
+    color: black;
 }
 
 .navRight{
