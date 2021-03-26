@@ -215,9 +215,11 @@
 }
 .icon-telegram::before{
     content: '\ea95';
+    color: rgb(68, 95, 184);
 }
 .icon-drive::before{
     content: '\ea8f';
+    color: rgb(23, 192, 88);
 }
 .icon-insta::before{
     content: '\ea92';
