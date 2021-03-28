@@ -165,6 +165,10 @@
 .navMenuOptions .options:hover{
     background-color: #cccccc;
 }
+.navMenuOptions .options a{
+    text-decoration: none;
+    color:black;
+}
 .line{
     display: block;
     margin:0 auto;
